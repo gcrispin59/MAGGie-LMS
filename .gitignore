@@ -2,9 +2,18 @@
 *.pyc
 *.egg-info
 *.swp
+*.sql
+*.sql.gz
 tags
 lms/docs/current
+lms/courses
 lms/public/dist
+# Exclude course and lesson data
+courses/
+lessons/
+private/
+*.json
+*.md
 __pycache__/
 *.py[cod]
 *$py.class
@@ -12,4 +21,7 @@ node_modules
 package-lock.json
 lms/public/frontend
 lms/www/lms.html
+sites/*/site_config.json
+sites/*/private/
+sites/*/public/files/
 frappe-ui
