@@ -1,0 +1,147 @@
+{
+  "course": {
+    "title": "Hello Universe",
+    "description": "A foundational journey into programming and computational thinking, starting with the classic 'Hello World' and expanding into universal concepts of communication, logic, and problem-solving.",
+    "course_code": "HELLO-UNIV-001",
+    "status": "Published",
+    "is_published": true,
+    "created_by": "Administrator",
+    "tags": ["programming", "fundamentals", "hello-world", "computational-thinking"],
+    "difficulty_level": "Beginner",
+    "estimated_duration": "4 hours",
+    "chapters": [
+      {
+        "chapter_id": "ch1_first_steps",
+        "title": "First Steps in the Digital Universe",
+        "description": "Understanding the foundations of programming through the universal greeting",
+        "order": 1,
+        "lessons": [
+          {
+            "lesson_id": "lesson_hello_world",
+            "title": "Hello World: Your First Program",
+            "description": "Learn the history, significance, and implementation of the most famous program in computer science",
+            "content_type": "markdown",
+            "content_file": "lessons/ch1_lesson1_hello_world.md",
+            "order": 1,
+            "estimated_duration": "45 minutes",
+            "learning_objectives": [
+              "Understand the historical significance of 'Hello World'",
+              "Write your first program in multiple languages",
+              "Comprehend basic program structure and execution"
+            ]
+          },
+          {
+            "lesson_id": "lesson_beyond_hello",
+            "title": "Beyond Hello: Communication Patterns",
+            "description": "Explore how programs communicate with users and systems",
+            "content_type": "markdown",
+            "content_file": "lessons/ch1_lesson2_beyond_hello.md",
+            "order": 2,
+            "estimated_duration": "30 minutes",
+            "learning_objectives": [
+              "Understand input/output concepts",
+              "Learn about user interaction patterns",
+              "Explore different communication methods in programming"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": "ch2_expanding_horizons",
+        "title": "Expanding Horizons",
+        "description": "From simple output to interactive programs and computational thinking",
+        "order": 2,
+        "lessons": [
+          {
+            "lesson_id": "lesson_interactive_programs",
+            "title": "Interactive Programs: Dialogue with Machines",
+            "description": "Create programs that respond to user input and make decisions",
+            "content_type": "markdown",
+            "content_file": "lessons/ch2_lesson1_interactive_programs.md",
+            "order": 1,
+            "estimated_duration": "60 minutes",
+            "learning_objectives": [
+              "Implement user input handling",
+              "Create conditional logic",
+              "Build interactive command-line programs"
+            ]
+          },
+          {
+            "lesson_id": "lesson_computational_thinking",
+            "title": "Computational Thinking: The Universal Language",
+            "description": "Understand how computational thinking applies beyond programming",
+            "content_type": "markdown",
+            "content_file": "lessons/ch2_lesson2_computational_thinking.md",
+            "order": 2,
+            "estimated_duration": "45 minutes",
+            "learning_objectives": [
+              "Define computational thinking principles",
+              "Apply problem decomposition techniques",
+              "Recognize patterns in everyday problems"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": "ch3_universe_of_possibilities",
+        "title": "Universe of Possibilities",
+        "description": "Exploring the broader implications and applications of programming knowledge",
+        "order": 3,
+        "lessons": [
+          {
+            "lesson_id": "lesson_real_world_applications",
+            "title": "Real-World Applications: Programming in Action",
+            "description": "Discover how programming concepts apply to various fields and industries",
+            "content_type": "markdown",
+            "content_file": "lessons/ch3_lesson1_real_world_applications.md",
+            "order": 1,
+            "estimated_duration": "40 minutes",
+            "learning_objectives": [
+              "Identify programming applications across industries",
+              "Understand the role of software in modern society",
+              "Explore career paths in technology"
+            ]
+          },
+          {
+            "lesson_id": "lesson_next_steps",
+            "title": "Next Steps: Your Programming Journey",
+            "description": "Plan your continued learning path in programming and computer science",
+            "content_type": "markdown",
+            "content_file": "lessons/ch3_lesson2_next_steps.md",
+            "order": 2,
+            "estimated_duration": "30 minutes",
+            "learning_objectives": [
+              "Create a personalized learning plan",
+              "Identify resources for continued education",
+              "Set achievable programming goals"
+            ]
+          }
+        ]
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_id": "quiz_hello_world_basics",
+        "title": "Hello World Fundamentals Quiz",
+        "type": "quiz",
+        "chapter_id": "ch1_first_steps",
+        "questions": 10,
+        "passing_score": 70
+      },
+      {
+        "assessment_id": "project_first_program",
+        "title": "Create Your First Interactive Program",
+        "type": "project",
+        "chapter_id": "ch2_expanding_horizons",
+        "description": "Build a simple interactive program that demonstrates the concepts learned"
+      }
+    ],
+    "prerequisites": [],
+    "target_audience": "Complete beginners to programming, students, professionals transitioning to tech",
+    "certification": {
+      "available": true,
+      "certificate_template": "hello_universe_certificate.html",
+      "requirements": "Complete all lessons and pass assessments with 70% or higher"
+    }
+  }
+}
